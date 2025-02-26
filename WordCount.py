@@ -8,7 +8,7 @@ def main():
   lineCount = 0
   wordcount = 0
   lettercount = 0
-
+  
   for line in textFile:
     lineCount += 1
     words = line.split(' ')
